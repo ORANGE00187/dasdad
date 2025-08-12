@@ -1,22 +1,17 @@
 {
   "version": 2,
-  "functions": {
-    "find-registration.js": { "memory": 256 },
-    "check-in.js": { "memory": 256 },
-    "get-seat-status.js": { "memory": 256 }
-  },
   "routes": [
     {
       "src": "/api/find-registration",
-      "dest": "/find-registration.js"
+      "dest": "/api/find-registration.js"
     },
     {
       "src": "/api/check-in",
-      "dest": "/check-in.js"
+      "dest": "/api/check-in.js"
     },
     {
       "src": "/api/get-seat-status",
-      "dest": "/get-seat-status.js"
+      "dest": "/api/get-seat-status.js"
     },
     {
       "src": "/(.*)",
